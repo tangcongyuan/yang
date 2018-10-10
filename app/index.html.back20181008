@@ -4,7 +4,7 @@
 <html>
 <head>
 <style>
-    #sidebar
+    #sidebar 
     {
         float:left;
         width:24%;
@@ -21,7 +21,7 @@
     <div id="sidebar">
         <h1 style="font-size:300%;text-align:center">Kailun Yang</h1>
         <h1 style="font-size:300%;text-align:center;">杨恺伦</h1>
-        <img src="profile.jpg" style="width:100%">
+        <img src="./img/profile.jpg" style="width:100%">
 
         <p>
             <a style="color:orangered;font-size:120%;" href="publications.html">Publications</a><br />
@@ -30,7 +30,7 @@
             <a style="color:OrangeRed;font-size:120%;" href="https://www.researchgate.net/profile/Kailun_Yang2">Research Gate</a><br />
             <a style="color:OrangeRed;font-size:120%;" href="https://www.semanticscholar.org/author/Kailun-Yang/8689702">Semantic Scholar</a><br />
             <a style="color:OrangeRed;font-size:120%;" href="http://xueshu.baidu.com/scholarID/CN-BL84MUKJ">Baidu Scholor Profile</a><br />
-            <a style="color:#ff5050;font-size:120%;" href="https://www.facebook.com/profile.php?id=100006943035768">Facebook</a><br />
+            <a style="color:orangered;font-size:120%;" href="https://www.facebook.com/profile.php?id=100006943035768">Facebook</a><br />
             <a style="color:OrangeRed;font-size:120%;" href="https://www.instagram.com/yangkl/">Instagram</a>
         </p>
 
@@ -82,7 +82,7 @@
                         <a style="color:orangered" href="http://www.mdpi.com/1424-8220/18/5/1506">Unifying Terrain Awareness for the Visually Impaired through Real-Time Semantic Segmentation.</a>
                         <b>Sensors</b>, 18(5), p.1506, 2018.
                         <a style="color:BLUE">Belongs to the Special Issue</a>
-                        <a style="color:BLUE" href="http://www.mdpi.com/journal/sensors/special_issues/smart_wearable">[Wearable Smart Devices]</a>
+                        <a style="color:BLUE" href="http://www.mdpi.com/journal/sensors/special_issues/smart_wearable">Wearable Smart Devices.</a>
                         <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/18/5/1506/htm">[HTML]</a>
                         <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/18/5/1506/pdf">[PDF]</a>
                         <a style="color:BLUE" href="http://wangkaiwei.org/file/terrain%20awareness%20dataset.zip">[DATA]</a>
@@ -101,17 +101,14 @@
                     </li>
 
                     <li>
-                        <b>K. Yang</b>, L.M. Bergasa, E. Romera, X. Huang, K. Wang.
+                        <b>K. Yang</b>, L.M. Bergasa, E. Romera, X. Haung, K. Wang.
                         <a style="color:orangered">Predicting polarization beyond semantics for wearable robotics.</a>
-                        In IEEE-RAS International Conference on Humanoid Robots (<b>Humanoids2018</b>), Beijing, China, November 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/humanoids2018_kailun.pdf">[PDF]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/Polarization%20Prediction%20Dataset.rar">[DATA]</a>
-                        <a style="color:BLUE" href="https://github.com/elnino9ykl/ERF-PSPNet">[CODE]</a>
+                        Submitted to IEEE-RAS International Conference on Humanoid Robots (<b>Humanoids2018</b>), Beijing, China, November 2018.
                     </li>
 
                     <li>
                         J. Wang, <b>K. Yang</b>, W. Hu, K. Wang.
-                        <a style="color:orangered">An environmental perception and navigaitonal assistance system for visually impaired persons based on semantic stixels and sound interaction.</a>
+                        <a style="color:orangered">An environmental perception and navigaiton assistance system for visually impaired persons based on semantic stixels and sound interaction.</a>
                         In IEEE International Conference on Systems, Man, and Cybernetics (<b>SMC2018</b>), Miyazaki, Japan, October 2018.
                         <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/smc2018_juan.pdf">[PDF]</a>
                     </li>
@@ -120,7 +117,6 @@
                         N. Long, K. Wang, R. Cheng, W. Hu, <b>K. Yang</b>.
                         <a style="color:orangered">Low Power Millimeter Wave Radar System for the Visually Impaired.</a>
                         In IET International Radar Conference (<b>IRC2018</b>), Nanjing, China, October 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/irc2018_ningbo.pdf">[PDF]</a>
                     </li>
 
                     <li>
@@ -129,46 +125,37 @@
                         In IEEE International Conference on Vehicular Electronics and Safety (<b>ICVES2018</b>), Madrid, Spain, September 2018.
                         <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icves2018_kailun.pdf">[PDF]</a>
                         <a style="color:BLUE" href="http://wangkaiwei.org/file/Curbs%20Dataset.zip">[DATA]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180914/20180914eg.html">[BLOG]</a>
                     </li>
 
                     <li>
                         N. Long, K. Wang, R. Cheng, <b>K. Yang</b>, J. Bai.
-                        <a style="color:orangered">Fusion of Millimeter wave Radar and RGB-Depth sensors for assisted navigation of the visually impaired.</a>
+                        <a style="color:orangered">Millimeter wave Radar and RGB-Depth sensors for the visually impaired.</a>
                         In SPIE Security + Defence Symposium, Berlin, Germany, September 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/securitydefence2018_ningbo.pdf">[PDF]</a>
                     </li>
 
                     <li>
-                        L. Fei, K. Wang, S. Lin, <b>K. Yang</b>, R. Cheng and H. Chen.
-                        <a style="color:orangered">Scene text detection and recognition system for visually impaired in real world.</a>
+                        L. Fei, K. Wang, H. Chen, S. Lin, <b>K. Yang</b>.
+                        <a style="color:orangered">Optical character detection and recognition system for visually impaired people in certain scenarios.</a>
                         In SPIE Security + Defence Symposium, Berlin, Germany, September 2018.
-                        <a style="color:BLUE">[Best Student Paper]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/securitydefence2018_lei.pdf">[PDF]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180915/20180915eg.html">[BLOG]</a>
                     </li>
 
                     <li>
                         Z. Huang, K. Wang, <b>K. Yang</b>, R. Cheng, J. Bai.
                         <a style="color:orangered">Glass Detection and Recognition Based on the Fusion of Ultrasonic Sensor and RGB-D Sensor for the Visually Impaired.</a>
                         In SPIE Security + Defence Symposium, Berlin, Germany, September 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/securitydefence2018_zhiming.pdf">[PDF]</a>
                     </li>
 
                     <li>
                         R. Cheng, K. Wang, L. Lin, <b>K. Yang</b>.
                         <a style="color:orangered">Visual Localization of Key Positions for Visually Impaired People.</a>
                         In International Conference on Pattern Recognition (<b>ICPR2018</b>), Beijing, China, August 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icpr2018_ruiqi.pdf">[PDF]</a>
                         <a style="color:BLUE" href="http://wangkaiwei.org/file/VLdataset.rar">[DATA]</a>
                     </li>
 
                     <li>
-                        S. Lin, K. Wang, <b>K. Yang</b>, R. Cheng.
+                        Lin S, Wang K, <b>Yang K</b>, Cheng R.
                         <a style="color:orangered" href="https://link.springer.com/chapter/10.1007/978-3-319-94274-2_9">KrNet: A Kinetic Real-time Convolutional Neural Network for Navigational Assistance.</a>
                         In International Conference on Computers Helping People with Special Needs (<b>ICCHP2018</b>), Linz, Austria, July 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icchp2018_shufei.pdf">[PDF]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180715/20180715eg.html">[BLOG]</a>
                     </li>
 
                     <li>
@@ -178,7 +165,6 @@
                         <a style="color:BLUE" href="http://www.robesafe.es/personal/bergasa/papers/iv2018_kailun.pdf">[PDF]</a>
                         <a style="color:BLUE" href="http://www.robesafe.es/personal/bergasa/videos/Video.mp4">[VIDEO]</a>
                         <a style="color:BLUE" href="http://wangkaiwei.org/file/terrain%20awareness%20dataset.zip">[DATA]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180630/20180630eg.html">[BLOG]</a>
                     </li>
 
                     <li>
@@ -190,21 +176,12 @@
                     </li>
 
                     <li>
-                        H. Chen, K. Wang, <b>K. Yang</b>.
-                        <a style="color:orangered">
-                            Improving RealSense by Fusing Color Stereo Vision and Infrared Stereo Vision for the Visually Impaired.
-                        </a> In International Conference on Information Science and System (<b>ICISS2018</b>), Jeju Island, South Korea, April 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/iciss2018_hao.pdf">[PDF]</a>
-                    </li>
-
-                    <li>
                         <b>K. Yang</b>, K. Wang, S. Lin, J. Bai, L.M. Bergasa, R. Arroyo.
                         <a style="color:orangered">
                             Long-range Traversability Awareness and Low-lying Obstacle Negotiation with RealSense for the Visually Impaired.
                         </a> In International Conference on Frontiers of Image Processing (<b>ICFIP2018</b>), Barcelona, Spain, March 2018.
                         <a style="color:BLUE" href="http://www.robesafe.uah.es/personal/bergasa/papers/Kailun_BestPaperAward.pdf">[Best Paper Awared]</a>
                         <a style="color:BLUE" href="http://www.robesafe.uah.es/personal/bergasa/papers/ICFIP2018_Kailun.pdf">[PDF]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180311/20180311eg.html">[BLOG]</a>
                     </li>
 
                     <li>
@@ -212,31 +189,21 @@
                         <a style="color:orangered">
                             Improving RealSense by Fusing Color Stereo Vision and Infrared Stereo Vision for the Visually Impaired.
                         </a> In International Conference on Frontiers of Image Processing (<b>ICFIP2018</b>), Barcelona, Spain, March 2018.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icfip2018_hao.pdf">[PDF]</a>
                     </li>
 
                     <li>
                         <b>K. Yang</b>, K. Wang, H. Chen, J. Bai.
                         <a style="color:orangered" href="https://www.osapublishing.org/ao/abstract.cfm?uri=ao-57-11-2809">Reducing the minimum range of a RGB-depth sensor to aid navigation in visually impaired individuals.</a>
                         <b>Applied optics</b>, 57(11), pp. 2809-2819, 2018.
-                        <a style="color:BLUE">[Highlighted as an Editor's Pick]</a>
+                        <a style="color:BLUE">Highlighted as an Editor's Pick</a>.
                     </li>
-
-                    <li>
-                        R. Cheng, K. Wang, <b>K. Yang</b>, N. Long, J. Bai, D. Liu.
-                        <a style="color:orangered" href="https://link.springer.com/article/10.1007/s11042-017-5472-5">Real-time pedestrian crossing lights detection algorithm for the visually impaired.</a>
-                        <b>Multimedia Tools and Applications</b>, 77, pp. 20651-20671, 2018.
-                        <a style="color:BLUE" href="https://link.springer.com/content/pdf/10.1007/s11042-017-5472-5.pdf">[PDF]</a>
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/VLdataset.rar">[DATA]</a>
-                    </li>
-
                 </ul>
 
                 <p><a style="font-size:120%;"><b>2017</b></a></p>
 
                 <ul>
                     <li>
-                        <b>K. Yang</b>, K. Wang, R. Cheng, W. Hu, X. Huang, J. Bai.
+                        <b>K. Yang</b>, K. Wang, R. Cheng, W. Hu, X. Huang X, J. Bai.
                         <a style="color:orangered" href="http://www.mdpi.com/1424-8220/17/8/1890">Detecting traversable area and water hazards for the visually impaired with a pRGB-D sensor.</a>
                         <b>Sensors</b>, 17(8), p. 1890, 2017.
                         <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/17/8/1890/htm">[HTML]</a>
@@ -252,13 +219,20 @@
                     </li>
 
                     <li>
-                        <b>K. Yang</b>, K. Wang, X. Zhao, R. Cheng, J. Bai, Y. Yang, D. Liu.
-                        <a style="color:orangered" href="https://content.iospress.com/articles/journal-of-ambient-intelligence-and-smart-environments/ais459">IR stereo RealSense: Decreasing minimum range of navigational assistance for visually impaired individuals.</a>
-                        <b>Journal of Ambient Intelligence and Smart Environments</b>, 9(6), pp. 743-755, 2017.
+                        R. Cheng, K. Wang, <b>K. Yang</b>, N. Long, J. Bai, D. Liu.
+                        <a style="color:orangered" href="https://link.springer.com/article/10.1007/s11042-017-5472-5">Real-time pedestrian crossing lights detection algorithm for the visually impaired.</a>
+                        <b>Multimedia Tools and Applications</b>, pp. 1-21, 2017.
+                        <a style="color:BLUE" href="http://wangkaiwei.org/file/VLdataset.rar">[DATA]</a>
                     </li>
 
                     <li>
-                        X. Huang, J. Bai, K. Wang, Q. Liu, Y. Luo, <b>K. Yang</b>, X. Zhang.
+                        <b>K. Yang</b>, K. Wang, X. Zhao, R. Cheng, J. Bai, Y. Yang, D. Liu.
+                        <a style="color:orangered" href="https://content.iospress.com/articles/journal-of-ambient-intelligence-and-smart-environments/ais459">IR stereo RealSense: Decreasing minimum range of navigational assistance for visually impaired individuals.</a>
+                        <b>Journal of Ambient Intelligence and Smart Environments</b>, 9(6), pp. 743-755.
+                    </li>
+
+                    <li>
+                        X. Huang, J. Bai, K. Wang, Q. Liu, Y. Luo, <b>K. Yang K</b>, X. Zhang.
                         <a style="color:orangered" href="https://www.osapublishing.org/oe/abstract.cfm?uri=oe-25-2-1173">Target enhanced 3D reconstruction based on polarization-coded structured light.</a>
                         <b>Optics Express</b>, 25(2), pp. 1173-1184, 2017.
                         <a style="color:BLUE" href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-25-2-1173&id=357437">[HTML]</a>
@@ -281,7 +255,6 @@
                         X. Zhao, K. Wang, <b>K. Yang</b>, W. Hu.
                         <a style="color:orangered" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10225/1022509/Unconstrained-face-detection-and-recognition-based-on-RGB-D-camera/10.1117/12.2266122.short">Unconstrained face detection and recognition based on RGB-D camera for the visually impaired.</a>
                         In International Conference on Graphic and Image Processing (<b>ICGIP2016</b>), Tokyo, Japan, August 2016.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icgip2016_xiangdong.pdf">[PDF]</a>
                     </li>
                 </ul>
                 <p><a style="font-size:120%;"><b>2015</b></a></p>
@@ -297,9 +270,9 @@
                         R. Cheng, K. Wang, <b>K. Yang</b>, X. Zhao X.
                         <a style="color:orangered" href="https://ieeexplore.ieee.org/abstract/document/7450353/">A ground and obstacle detection algorithm for the visually impaired.</a>
                         In Iet International Conference on Biomedical Image and Signal Processing (<b>ICBISP2015</b>), Beijing, China, November 2015.
-                        <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icbisp2015_ruiqi.pdf">[PDF]</a>
                     </li>
                 </ul>
             </div>
         </body>
 </html>
+
