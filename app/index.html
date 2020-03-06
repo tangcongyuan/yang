@@ -41,7 +41,17 @@
         a:visited{
             background-color:azure;
         }
-    
+        button {
+            color:black;
+            background-color:transparent;
+            border:none;
+            font-family:'Candara', 'Microsoft YaHei', sans-serif;
+            font-size:16px;
+            font-weight:normal;
+        }
+        button:hover {
+            background-color: azure;
+        }
 
     </style>
 </head>
@@ -89,7 +99,7 @@
         <table cellpadding="0">
             <tr>
                 <td width="18%"><div><img src="./img/rainerstiefelhagen.jpg" style="width:90%"></div></td>
-                <td><span><a style="color:navy;font-size:120%;" href="https://cvhci.anthropomatik.kit.edu/people_596.php">My Post-doc supervisor<br />Prof. Rainer Stiefelhagen</a></span></td>
+                <td><span><a style="color:navy;font-size:120%;" href="https://cvhci.anthropomatik.kit.edu/people_596.php">My PostDoc supervisor<br />Prof. Rainer Stiefelhagen</a></span></td>
             </tr>
         </table>
 
@@ -135,6 +145,7 @@
                 <td><span><a style="color:navy;font-size:120%;" href="http://www.dongming.io">My colleague<br />Dongming Sun</a></span></td>
             </tr>
         </table>
+        -->
 
         <table cellpadding="0">
             <tr>
@@ -142,7 +153,7 @@
                 <td><span><a style="color:navy;font-size:120%;" href="http://krvision.cn">KrVision Techonology</a></span></td>
             </tr>
         </table>
-        -->
+        
 
         </p>
 
@@ -197,7 +208,7 @@
 
             I am also Co-founder and Chief Technology Officer
             of Hangzhou SUR-IMAGE Technology Co., Ltd.,
-            a startup with the aim to develop multi-modal stereo vision sensor for autonomous driving.
+            a startup with the aim to develop multi-modal stereo vision sensors for autonomous driving.
         </p>
 
         <p style="font-family:'Candara', 'Microsoft YaHei', sans-serif">
@@ -240,6 +251,64 @@
             </table>
         </div>
 
+            <div>
+                <table cellpadding="8">
+                    <tr>
+                        <td class="table_image_spec" align="center"><img src="./images/tits2020_kailun.jpg" alt="" width="250"></td>
+                        <td id="divdash">
+                            <b>K. Yang</b>, X. Hu, Y. Fang, K. Wang, R. Stiefelhagen.<br />
+                            <a style="color:MidnightBlue">Omnisupervised Omnidirectional Semantic Segmentation.</a><br />
+                            Submitted to <b>IEEE Transactions on Intelligent Transportation Systems</b>, 2020.
+                            <b><a style="color:orangered" href="https://github.com/elnino9ykl/OOSS">[DATA+CODE]</a></b>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <table cellpadding="8">
+                    <tr>
+                        <td class="table_image_spec" align="center"><img src="./images/ral2020_lei.jpg" alt="" width="250"></td>
+                        <td id="divdash">
+                            L. Sun, <b>K. Yang</b>, X. Hu, W. Hu, K. Wang.<br />
+                            <a style="color:MidnightBlue">Real-time Fusion Network for RGB-D Semantic Segmentation Incorporating Unexpected Obstacle Detection for Road-driving Images.</a><br />
+                            Submitted to <b>IEEE Robotics and Automation Letters</b> with IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), Las Vegas, United States, October 2020.
+                            <a style="color:BLUE" href="https://arxiv.org/pdf/2002.10570">[PDF]</a>
+                            <b><a style="color:orangered" href="https://github.com/AHupuJR/RFNet">[CODE]</a></b>
+                            <button onclick="myFunction_ral2020_lei();">BibTex</button>
+                            <div id="ral2020_lei" style="display:none">
+                                @article{sun2020real,<br />
+                                    title={Real-time Fusion Network for RGB-D Semantic Segmentation Incorporating Unexpected Obstacle Detection for Road-driving Images},<br />
+                                    author={Sun, Lei and Yang, Kailun and Hu, Xinxin and Hu, Weijian and Wang, Kaiwei},<br />
+                                    journal={arXiv preprint arXiv:2002.10570},<br />
+                                    year={2020}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_ral2020_lei() {
+                                  var x =document.getElementById("ral2020_lei");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <table cellpadding="8">
+                    <tr>
+                        <td class="table_image_spec" align="center"><img src="./images/itsc2020_keyang.jpg" alt="" width="250"></td>
+                        <td id="divdash">
+                            K. Zhou, K. Wang, <b>K. Yang</b>.<br />
+                            <a style="color:MidnightBlue">PADENet: An Efficient and Robust Panoramic Monocular Depth Estimation Network for Outdoor Scenes.</a><br />
+                            Submitted to IEEE Intelligent Transportation Systems Conference (<b>ITSC</b>), Rhodes, Greece, September 2020.
+                            <b><a style="color:orangered" href="https://github.com/zzzkkkyyy/PADENet">[CODE]</a></b>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
             <div>
                 <table cellpadding="8">
@@ -264,9 +333,23 @@
                             <a style="color:MidnightBlue">DS-PASS: Detail-Sensitive Panoramic Annular Semantic Segmentation through SwaftNet for Surrounding Sensing.</a><br />
                             Submitted to IEEE Intelligent Vehicles Symposium (<b>IV</b>), Las Vegas, United States, June 2020.
                             <a style="color:BLUE" href="https://arxiv.org/pdf/1909.07721">[PDF]</a>
-                            <a style="color:BLUE" href="https://arxiv.org/abs/1909.07721">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/iv2020_kailun.bib">[BibTex]</a>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/DS-PASS">[DATA+CODE]</a></b>
+                            <button onclick="myFunction_iv2020_dspass_kailun();">BibTex</button>
+                            <div id="iv2020_dspass_kailun" style="display:none">
+                                @article{yang2019ds,<br />
+                                    title={DS-PASS: Detail-Sensitive Panoramic Annular Semantic Segmentation through SwaftNet for Surrounding Sensing},<br />
+                                    author={Yang, Kailun and Hu, Xinxin and Chen, Hao and Xiang, Kaite and Wang, Kaiwei and Stiefelhagen, Rainer},<br />
+                                    journal={arXiv preprint arXiv:1909.07721},<br />
+                                    year={2019}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_iv2020_dspass_kailun() {
+                                  var x =document.getElementById("iv2020_dspass_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -295,8 +378,23 @@
                             <a style="color:MidnightBlue">Universal  Semantic  Segmentation  for  Fisheye  Urban  Driving  Images.</a><br />
                             Submitted to IEEE Intelligent Vehicles Symposium (<b>IV</b>), Las Vegas, United States, June 2020.
                             <a style="color:BLUE" href="https://arxiv.org/pdf/2002.03736">[PDF]</a>
-                            <a style="color:BLUE" href="https://arxiv.org/abs/2002.03736">[arxiv]</a>
                             <b><a style="color:orangered" href="https://github.com/Yaozhuwa/FisheyeSeg">[CODE]</a></b>
+                            <button onclick="myFunction_iv2020_yaozu();">BibTex</button>
+                            <div id="iv2020_yaozu" style="display:none">
+                                @article{ye2020universal,<br />
+                                    title={Universal Semantic Segmentation for Fisheye Urban Driving Images},<br />
+                                    author={Ye, Yaozu and Yang, Kailun and Xiang, Kaite and Wang, Juan and Wang, Kaiwei},<br />
+                                    journal={arXiv preprint arXiv:2002.03736},<br />
+                                    year={2020}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_iv2020_yaozu() {
+                                  var x =document.getElementById("iv2020_yaozu");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -311,7 +409,23 @@
                             <a style="color:MidnightBlue">A robust monocular depth estimation framework based on light-weight ERF-PSPNet for day-night driving scenes.</a><br />
                             In International Conference on Graphics, Images and Interactive Techniques (<b>CGIIT</b>), Sanya, China, February 2020.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/cgiit2020_keyang.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/cgiit2020_keyang.bib">[BibTex]</a>
+                            <button onclick="myFunction_cgiit2020_keyang();">BibTex</button>
+                            <div id="cgiit2020_keyang" style="display:none">
+                                @inproceedings{zhou2020robust,<br />
+                                    title={A robust monocular depth estimation framework based on light-weigh ERF-PSPNet for day-night driving scenes},<br />
+                                    author={Zhou, Keyang and Wang, Kaiwei and Yang, Kailun},<br />
+                                    booktitle={Journal of Physics: Conference Series},<br />
+                                    year={2020},<br />
+                                    organization={IOP Publishing}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_cgiit2020_keyang() {
+                                  var x =document.getElementById("cgiit2020_keyang");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -338,8 +452,24 @@
                             <b>IEEE Transactions on Intelligent Transportation Systems</b>, 2019.
                             <b><a style="color:orangered" href="https://ieeexplore.ieee.org/document/8835049">[Early Access]</a></b>
                             <a style="color:BLUE" href="http://www.robesafe.uah.es/personal/bergasa/papers/IEEE_T_ITS_Kailun_2019_FINAL%20VERSION.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/tits2019_kailun.bib">[BibTex]</a>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/PASS">[DATA+CODE]</a></b>
+                            <button onclick="myFunction_tits2019_kailun();">BibTex</button>
+                            <div id="tits2019_kailun" style="display:none">
+                                @article{yang2019pass,<br />
+                                    title={PASS: Panoramic Annular Semantic Segmentation},<br />
+                                    author={Yang, Kailun and Hu, Xinxin and Bergasa, Luis M and Romera, Eduardo and Wang, Kaiwei},<br />
+                                    journal={IEEE Transactions on Intelligent Transportation Systems},<br />
+                                    year={2019},<br />
+                                    publisher={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_tits2019_kailun() {
+                                  var x =document.getElementById("tits2019_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -355,9 +485,29 @@
                             <b>Applied Optics</b>, 2019.
                             <b><a style="color:orangered">[Highlighted as an Editors' Pick]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/ao2019_kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/ao2019_kailun.bib">[BibTex]</a>
-                            <a style="color:BLUE" href="http://wangkaiwei.org/file/RGB-D-SS%20Dataset.zip">[DATA]</a>
+                            <a style="color:BLUE" href="https://github.com/elnino9ykl/SS4Blind">[DATA1]</a>
+                            <a style="color:BLUE" href="http://wangkaiwei.org/file/RGB-D-SS%20Dataset.zip">[DATA2]</a>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/ERF-PSPNet">[CODE]</a></b>
+                            <button onclick="myFunction_ao2019_kailun();">BibTex</button>
+                            <div id="ao2019_kailun" style="display:none">
+                                @article{yang2019robustifying,<br />
+                                    title={Robustifying semantic cognition of traversability across wearable RGB-depth cameras},<br />
+                                    author={Yang, Kailun and Bergasa, Luis M and Romera, Eduardo and Wang, Kaiwei},<br />
+                                    journal={Applied optics},<br />
+                                    volume={58},<br />
+                                    number={12},<br />
+                                    pages={3141--3155},<br />
+                                    year={2019},<br />
+                                    publisher={Optical Society of America}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_ao2019_kailun() {
+                                  var x =document.getElementById("ao2019_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -366,7 +516,7 @@
             <div>
                 <table cellpadding="8">
                     <tr>
-                        <td class="table_image_spec" align="center"><img src="./images/thms2019_weijian.jpg" alt="" width="250"></td>
+                        <td class="table_image_spec" align="center"><img src="./images/ijhci2019_weijian.jpg" alt="" width="250"></td>
                         <td id="divdash">
                             W. Hu, K. Wang, <b>K. Yang</b>, R. Cheng, Y. Ye, L. Sun, C. Wang.<br />
                             <a style="color:Midnightblue">A Comparative Study in Real-Time Scene Sonification for Visually Impaired People.</a><br />
@@ -385,7 +535,26 @@
                             <a style="color:Midnightblue" href="https://iopscience.iop.org/article/10.1088/1361-6501/ab40d9/meta">An Indoor Positioning Framework Based on Panoramic Visual Odometry for Visually Impaired People.</a><br />
                             <b>Measurement Science and Technology</b>, 2019.
                             <a style="color:BLUE" href="https://iopscience.iop.org/article/10.1088/1361-6501/ab40d9/pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/mst2019_weijian.bib">[BibTex]</a>
+                            <button onclick="myFunction_mst2019_weijian();">BibTex</button>
+                            <div id="mst2019_weijian" style="display:none">
+                                @article{hu2019indoor,<br />
+                                    title={An indoor positioning framework based on panoramic visual odometry for visually impaired people},<br />
+                                    author={Hu, Weijian and Wang, Kaiwei and Chen, Hao and Cheng, Ruiqi and Yang, Kailun},<br />
+                                    journal={Measurement Science and Technology},<br />
+                                    volume={31},<br />
+                                    number={1},<br />
+                                    pages={014006},<br />
+                                    year={2019},<br />
+                                    publisher={IOP Publishing}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_mst2019_weijian() {
+                                  var x =document.getElementById("mst2019_weijian");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -401,7 +570,26 @@
                             <b>Optics Express</b>, 2019.
                             <a style="color:BLUE" href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-27-17-24481">[HTML]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/oe2019_hao.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/oe2019_hao.bib">[BibTex]</a>
+                            <button onclick="myFunction_oe2019_hao();">BibTex</button>
+                            <div id="oe2019_hao" style="display:none">
+                                @article{chen2019palvo,<br />
+                                    title={PALVO: visual odometry based on panoramic annular lens},<br />
+                                    author={Chen, Hao and Wang, Kaiwei and Hu, Weijian and Yang, Kailun and Cheng, Ruiqi and Huang, Xiao and Bai, Jian},<br />
+                                    journal={Optics express},<br />
+                                    volume={27},<br />
+                                    number={17},<br />
+                                    pages={24481--24497},<br />
+                                    year={2019},<br />
+                                    publisher={Optical Society of America}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_oe2019_hao() {
+                                  var x =document.getElementById("oe2019_hao");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -416,7 +604,26 @@
                             <a style="color:Midnightblue" href="https://www.osapublishing.org/ao/abstract.cfm?uri=ao-58-23-6377">Unconstrained Self-Calibration of Stereo Camera on Visually Impaired Assistance Devices.</a><br />
                             <b>Applied Optics</b>, 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/ao2019_huabing.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/ao2019_huabing.bib">[BibTex]</a>
+                            <button onclick="myFunction_ao2019_huabing();">BibTex</button>
+                            <div id="ao2019_huabing" style="display:none">
+                                @article{li2019unconstrained,<br />
+                                    title={Unconstrained self-calibration of stereo camera on visually impaired assistance devices},<br />
+                                    author={Li, Huabing and Wang, Kaiwei and Yang, Kailun and Cheng, Ruiqi and Wang, Chen and Fei, Lei},<br />
+                                    journal={Applied optics},<br />
+                                    volume={58},<br />
+                                    number={23},<br />
+                                    pages={6377--6387},<br />
+                                    year={2019},<br />
+                                    publisher={Optical Society of America}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_ao2019_huabing() {
+                                  var x =document.getElementById("ao2019_huabing");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -432,7 +639,26 @@
                             <b>Review of Scientific Instruments</b>, 2019.
                             <a style="color:BLUE" href="https://aip.scitation.org/doi/full/10.1063/1.5093279">[HTML]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/rsi2019_ningbo.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/rsi2019_ningbo.bib">[BibTex]</a>
+                            <button onclick="myFunction_rsi2019_ningbo();">BibTex</button>
+                            <div id="rsi2019_ningbo" style="display:none">
+                                @article{long2019unifying,<br />
+                                    title={Unifying obstacle detection, recognition, and fusion based on millimeter wave radar and RGB-depth sensors for the visually impaired},<br />
+                                    author={Long, Ningbo and Wang, Kaiwei and Cheng, Ruiqi and Hu, Weijian and Yang, Kailun},<br />
+                                    journal={Review of Scientific Instruments},<br />
+                                    volume={90},<br />
+                                    number={4},<br />
+                                    pages={044102},<br />
+                                    year={2019},<br />
+                                    publisher={AIP Publishing}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_rsi2019_ningbo() {
+                                  var x =document.getElementById("rsi2019_ningbo");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                  </table>
@@ -447,7 +673,26 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-28/issue-1/013028/Assisting-the-visually-impaired--multitarget-warning-through-millimeter-wave/10.1117/1.JEI.28.1.013028.short?SSO=1">Assisting the visually impaired: Multi-target warning through millimeter wave radar and RGB-depth sensors.</a><br />
                             <b>Journal of Electronic Imaging</b>, 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/jei2019_ningbo.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/jei2019_ningbo.bib">[BibTex]</a>
+                            <button onclick="myFunction_jei2019_ningbo();">BibTex</button>
+                            <div id="jei2019_ningbo" style="display:none">
+                                @article{long2019assisting,<br />
+                                    title={Assisting the visually impaired: multitarget warning through millimeter wave radar and RGB-depth sensors},<br />
+                                    author={Long, Ningbo and Wang, Kaiwei and Cheng, Ruiqi and Yang, Kailun and Hu, Weijian and Bai, Jian},<br />
+                                    journal={Journal of Electronic Imaging},<br />
+                                    volume={28},<br />
+                                    number={1},<br />
+                                    pages={013028},<br />
+                                    year={2019},<br />
+                                    publisher={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_jei2019_ningbo() {
+                                  var x =document.getElementById("jei2019_ningbo");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -464,7 +709,24 @@
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/itsc2019_kaite.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1907.11066">[arxiv]</a>
                             <b><a style="color:orangered" href="https://github.com/Katexiang/ERF-PSPNET">[CODE]</a></b>
-                            <a style="color:BLUE" href="./bibs/itsc2019_kaite.bib">[BibTex]</a>                            
+                            <button onclick="myFunction_itsc2019_kaite();">BibTex</button>
+                            <div id="itsc2019_kaite" style="display:none">
+                                @inproceedings{xiang2019importance,<br />
+                                    title={Importance-aware semantic segmentation with efficient pyramidal context network for navigational assistant systems},<br />
+                                    author={Xiang, Kaite and Wang, Kaiwei and Yang, Kailun},<br />
+                                    booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)},<br />
+                                    pages={3412--3418},<br />
+                                    year={2019},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_itsc2019_kaite() {
+                                  var x =document.getElementById("itsc2019_kaite");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>                            
                         </td>
                     </tr>
                 </table>
@@ -480,8 +742,25 @@
                             In IEEE Intelligent Transportation Systems Conference (<b>ITSC</b>), Auckland, New Zealand, October 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/itsc2019_ruiqi.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1905.05425.pdf">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/itsc2019_ruiqi.bib">[BibTex]</a>
                             <b><a style="color:orangered" href="https://github.com/chengricky/PAL">[DATA+CODE]</a></b>
+                            <button onclick="myFunction_itsc2019_ruiqi();">BibTex</button>
+                            <div id="itsc2019_ruiqi" style="display:none">
+                                @inproceedings{cheng2019panoramic,<br />
+                                    title={Panoramic annular localizer: Tackling the variation challenges of outdoor localization using panoramic annular images and active deep descriptors},<br />
+                                    author={Cheng, Ruiqi and Wang, Kaiwei and Lin, Shufei and Hu, Weijian and Yang, Kailun and Huang, Xiao and Li, Huabing and Sun, Dongming and Bai, Jian},<br />
+                                    booktitle={2019 IEEE Intelligent Transportation Systems Conference (ITSC)},<br />
+                                    pages={920--925},<br />
+                                    year={2019},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_itsc2019_ruiqi() {
+                                  var x =document.getElementById("itsc2019_ruiqi");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -497,11 +776,28 @@
                             In IEEE International Conference on Image Processing (<b>ICIP</b>), Taipei, China, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icip2019_xinxin.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1905.10089">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/icip2019_xinxin.bib">[BibTex]</a>
                             <b><a style="color:orangered" href="https://github.com/anheidelonghu/ACNet">[CODE]</a></b>
                             <a style="color:BLUE" href="https://mp.weixin.qq.com/s/S1xMR5L5KtyHZgW_lAdDDA">[PaperWeekly]</a>
                             <a style="color:BLUE" href="https://zhuanlan.zhihu.com/p/82193530">[ZhiHu]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20190922/20190922.html">[BLOG]</a>
+                            <button onclick="myFunction_icip2019_xinxin();">BibTex</button>
+                            <div id="icip2019_xinxin" style="display:none">
+                                @inproceedings{hu2019acnet,<br />
+                                    title={Acnet: Attention based network to exploit complementary features for rgbd semantic segmentation},<br />
+                                    author={Hu, Xinxin and Yang, Kailun and Fei, Lei and Wang, Kaiwei},<br />
+                                    booktitle={2019 IEEE International Conference on Image Processing (ICIP)},<br />
+                                    pages={1440--1444},<br />
+                                    year={2019},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_icip2019_xinxin() {
+                                  var x =document.getElementById("icip2019_xinxin");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script> 
                         </td>
                     </tr>
                 </table>
@@ -517,10 +813,25 @@
                             In SPIE Security + Defence Symposium, Strasbourg, France, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_dongming.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1908.05649">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/spie2019_dongming.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11166/111660L/A-multimodal-vision-sensor-for-autonomous-driving/10.1117/12.2535552.short">[Presentation]</a>
                             <b><a style="color:orangered" href="https://github.com/dongmingsun/tx2-erfpsp">[CODE]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20190909/20190909eg.html">[BLOG]</a>
+                            <button onclick="myFunction_spie2019_dongming();">BibTex</button>
+                            <div id="spie2019_dongming" style="display:none">
+                                @article{sun2019multimodal,<br />
+                                    title={A multimodal vision sensor for autonomous driving},<br />
+                                    author={Sun, Dongming and Huang, Xiao and Yang, Kailun},<br />
+                                    journal={arXiv preprint arXiv:1908.05649},<br />
+                                    year={2019}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_dongming() {
+                                  var x =document.getElementById("spie2019_dongming");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -536,9 +847,24 @@
                             In SPIE Security + Defence Symposium, Strasbourg, France, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_kaite.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1907.11394">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/spie2019_kaite.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11169/111690C/A-comparative-study-of-high-recall-real-time-semantic-segmentation/10.1117/12.2532697.short">[Presentation]</a>
                             <b><a style="color:orangered" href="https://github.com/Katexiang/swiftnet/tree/master/Swift_Factorized_Network(SFN)">[CODE]</a></b>
+                            <button onclick="myFunction_spie2019_kaite();">BibTex</button>
+                            <div id="spie2019_kaite" style="display:none">
+                                @article{xiang2019comparative,<br />
+                                    title={A Comparative Study of High-Recall Real-Time Semantic Segmentation Based on Swift Factorized Network},<br />
+                                    author={Xiang, Kaite and Wang, Kaiwei and Yang, Kailun},<br />
+                                    journal={arXiv preprint arXiv:1907.11394},<br />
+                                    year={2019}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_kaite() {
+                                  var x =document.getElementById("spie2019_kaite");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -555,6 +881,25 @@
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_jing.pdf">[PDF]</a>
                             <a style="color:BLUE" href="./bibs/spie2019_jing.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11169/111690H/Transparent-object-sensing-with-enhanced-prior-from-deep-convolutional-neural/10.1117/12.2533173.short">[Presentation]</a>
+                            <button onclick="myFunction_spie2019_jing();">BibTex</button>
+                            <div id="spie2019_jing" style="display:none">
+                                @inproceedings{wang2019transparent,<br />
+                                    title={Transparent object sensing with enhanced prior from deep convolutional neural network},<br />
+                                    author={Wang, Jing and Bai, Jian and Huang, Xiao and Zhou, Xiangdong and Zhao, Lei and Yan, Kun and Hou, Jing and Yang, Kailun},<br />
+                                    booktitle={Artificial Intelligence and Machine Learning in Defense Applications},<br />
+                                    volume={11169},<br />
+                                    pages={111690H},<br />
+                                    year={2019},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_jing() {
+                                  var x =document.getElementById("spie2019_jing");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -570,10 +915,25 @@
                             In SPIE Security + Defence Symposium, Strasbourg, France, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_yuanyou.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1909.00532">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/spie2019_yuanyou.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11169/111690B/Semantic-segmentation-of-panoramic-images-using-a-synthetic-dataset/10.1117/12.2532494.short">[Presentation]</a>
                             <b><a style="color:orangered" href="https://www.youtube.com/watch?v=--Mhldpd6nI">[VIDEO]</a></b>
                             <b><a style="color:orangered" href="https://github.com/Francis515/SYNTHIA-PANO">[DATA+CODE]</a></b>
+                            <button onclick="myFunction_spie2019_yuanyou();">BibTex</button>
+                            <div id="spie2019_yuanyou" style="display:none">
+                                @article{xu2019semantic,<br />
+                                    title={Semantic Segmentation of Panoramic Images Using a Synthetic Dataset},<br />
+                                    author={Xu, Yuanyou and Wang, Kaiwei and Yang, Kailun and Sun, Dongming and Fu, Jia},<br />
+                                    journal={arXiv preprint arXiv:1909.00532},<br />
+                                    year={2019}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_yuanyou() {
+                                  var x =document.getElementById("spie2019_yuanyou");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -588,7 +948,25 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11169/111690Q/Semantic-scene-understanding-on-mobile-device-with-illumination-invariance-for/10.1117/12.2532550.short">Semantic scene understanding on mobile device with illumination invariance for the visually impaired.</a><br />
                             In SPIE Security + Defence Symposium, Strasbourg, France, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_chengyou.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/spie2019_chengyou.bib">[BibTex]</a>
+                            <button onclick="myFunction_spie2019_chengyou();">BibTex</button>
+                            <div id="spie2019_chengyou" style="display:none">
+                                @inproceedings{xu2019semantic,<br />
+                                    title={Semantic scene understanding on mobile device with illumination invariance for the visually impaired},<br />
+                                    author={Xu, Chengyou and Wang, Kaiwei and Yang, Kailun and Cheng, Ruiqi and Bai, Jian},<br />
+                                    booktitle={Artificial Intelligence and Machine Learning in Defense Applications},<br />
+                                    volume={11169},<br />
+                                    pages={111690Q},<br />
+                                    year={2019},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_chengyou() {
+                                  var x =document.getElementById("spie2019_chengyou");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -604,11 +982,27 @@
                             In SPIE Security + Defence Symposium, Strasbourg, France, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_lei.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1908.05868">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/spie2019_lei.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11169/111690A/See-clearer-at-night--towards-robust-nighttime-semantic-segmentation/10.1117/12.2532477.short">[Presentation]</a>
                             <a style="color:BLUE" href="https://github.com/elnino9ykl/ZJU-Dataset">[DATA]</a>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/ERF-PSPNet">[CODE]</a></b>
                             <a style="color:BLUE" href="https://mp.weixin.qq.com/s/KfH8Uobcz8qL3E_KO9Ol5Q">[AITechTalk]</a>
+                            <a style="color:BLUE" href="https://zhuanlan.zhihu.com/p/90297928">[ZhiHu]</a>
+                            <button onclick="myFunction_spie2019_lei();">BibTex</button>
+                            <div id="spie2019_lei" style="display:none">
+                                @article{sun2019see,<br />
+                                    title={See Clearer at Night: Towards Robust Nighttime Semantic Segmentation through Day-Night Image Conversion},<br />
+                                    author={Sun, Lei and Wang, Kaiwei and Yang, Kailun and Xiang, Kaite},<br />
+                                    journal={arXiv preprint arXiv:1908.05868},<br />
+                                    year={2019}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_lei() {
+                                  var x =document.getElementById("spie2019_lei");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -623,8 +1017,26 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11158/1115808/Visual-place-recognition-based-on-multilevel-descriptors-for-the-visually/10.1117/12.2532524.short">Visual place recognition based on multi-level descrirptors for the visually impaired people.</a><br />
                             In SPIE Security + Defence Symposium, Strasbourg, France, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_yicheng.pdf">[PDF]</a>  
-                            <a style="color:BLUE" href="./bibs/spie2019_yicheng.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11158/1115808/Visual-place-recognition-based-on-multilevel-descriptors-for-the-visually/10.1117/12.2532524.short">[Presentation]</a>
+                            <button onclick="myFunction_spie2019_yicheng();">BibTex</button>
+                            <div id="spie2019_yicheng" style="display:none">
+                                @inproceedings{fang2019visual,<br />
+                                    title={Visual place recognition based on multilevel descriptors for the visually impaired people},<br />
+                                    author={Fang, Yicheng and Wang, Kaiwei and Cheng, Ruiqi and Yang, Kailun and Bai, Jian},<br />
+                                    booktitle={Target and Background Signatures V},<br />
+                                    volume={11158},<br />
+                                    pages={1115808},<br />
+                                    year={2019},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_yicheng() {
+                                  var x =document.getElementById("spie2019_yicheng");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -639,8 +1051,26 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11158/1115807/A-depth-estimation-framework-based-on-unsupervised-learning-and-cross/10.1117/12.2532666.short">A Depth Estimation Framework Based on Unsupervised Learning and Cross-Modal Translation.</a><br />
                             In SPIE Security + Defence Symposium, Strasbourg, France, September 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/spie2019_jiafeng.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/spie2019_jiafeng.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11158/1115807/A-depth-estimation-framework-based-on-unsupervised-learning-and-cross/10.1117/12.2532666.short">[Presentation]</a>
+                            <button onclick="myFunction_spie2019_jiafeng();">BibTex</button>
+                            <div id="spie2019_jiafeng" style="display:none">
+                                @inproceedings{shen2019depth,<br />
+                                    title={A depth estimation framework based on unsupervised learning and cross-modal translation},<br />
+                                    author={Shen, Jiafeng and Wang, Kaiwei and Yang, Kailun and Xiang, Kaite and Fei, Lei and Hu, Xinxin and Li, Huabing and Chen, Hao},<br />
+                                    booktitle={Target and Background Signatures V},<br />
+                                    volume={11158},<br />
+                                    pages={1115807},<br />
+                                    year={2019},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2019_jiafeng() {
+                                  var x =document.getElementById("spie2019_jiafeng");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -655,11 +1085,28 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/document/8814042">Can we PASS beyond the Field of View? Panoramic Annular Semantic Segmentation for Real-World Surrounding Perception.</a><br />
                             In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Paris, France, June 2019.
                             <a style="color:BLUE" href="http://www.robesafe.uah.es/personal/bergasa/papers/IV2019_Kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/iv2019_kailun.bib">[BibTex]</a>   
                             <b><a style="color:orangered" href="https://events.infovaya.com/presentation?id=40338">[VIDEO1]</a></b>
                             <b><a style="color:orangered" href="http://www.robesafe.uah.es/personal/bergasa/papers/IV2019_1384x3432.mp4">[VIDEO2]</a></b>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/PASS">[DATA+CODE]</a></b>
-                            <a style="color:BLUE" href="http://wangkaiwei.org/blog/20190609/20190609eg.html">[BLOG]</a>                            
+                            <a style="color:BLUE" href="http://wangkaiwei.org/blog/20190609/20190609eg.html">[BLOG]</a>
+                            <button onclick="myFunction_iv2019_kailun();">BibTex</button>
+                            <div id="iv2019_kailun" style="display:none">
+                                @inproceedings{yang2019can,<br />
+                                    title={Can we pass beyond the field of view? panoramic annular semantic segmentation for real-world surrounding perception},<br />
+                                    author={Yang, Kailun and Hu, Xinxin and Bergasa, Luis M and Romera, Eduardo and Huang, Xiao and Sun, Dongming and Wang, Kaiwei},<br />
+                                    booktitle={2019 IEEE Intelligent Vehicles Symposium (IV)},<br />
+                                    pages={446--453},<br />
+                                    year={2019},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_iv2019_kailun() {
+                                  var x =document.getElementById("iv2019_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>                            
                         </td>
                     </tr>
                 </table>
@@ -674,8 +1121,25 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/document/8813888/">Bridging the Day and Night Domain Gap for Semantic Segmentation.</a><br />
                             In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Paris, France, June 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/iv2019_eduardo.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/iv2019_eduardo.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://github.com/elnino9ykl/ZJU-Dataset">[DATA]</a>
+                            <button onclick="myFunction_iv2019_eduardo();">BibTex</button>
+                            <div id="iv2019_eduardo" style="display:none">
+                                @inproceedings{romera2019bridging,<br />
+                                    title={Bridging the day and night domain gap for semantic segmentation},<br />
+                                    author={Romera, Eduardo and Bergasa, Luis M and Yang, Kailun and Alvarez, Jose M and Barea, Rafael},<br />
+                                    booktitle={2019 IEEE Intelligent Vehicles Symposium (IV)},<br />
+                                    pages={1312--1318},<br />
+                                    year={2019},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_iv2019_eduardo() {
+                                  var x =document.getElementById("iv2019_eduardo");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script> 
                         </td>
                     </tr>
                 </table>
@@ -690,8 +1154,27 @@
                             <a style="color:MidnightBlue" href="https://iopscience.iop.org/article/10.1088/1742-6596/1229/1/012070">Store sign text recognition for wearable navigation assistance system.</a><br />
                             In International Conference on Graphics, Images and Interactive Techniques (<b>CGIIT</b>), Guangzhou, China, February 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/cgiit2019_kaite.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/cgiit2019_kaite.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20190222/20190222eg.html">[BLOG]</a>
+                            <button onclick="myFunction_cgiit2019_kaite();">BibTex</button>
+                            <div id="cgiit2019_kaite" style="display:none">
+                                @inproceedings{xiang2019store,<br />
+                                    title={Store sign text recognition for wearable navigation assistance system},<br />
+                                    author={Xiang, Kaite and Wang, Kaiwei and Fei, Lei and Yang, Kailun},<br />
+                                    booktitle={Journal of Physics: Conference Series},<br />
+                                    volume={1229},<br />
+                                    number={1},<br />
+                                    pages={012070},<br />
+                                    year={2019},<br />
+                                    organization={IOP Publishing}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_cgiit2019_kaite() {
+                                  var x =document.getElementById("cgiit2019_kaite");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -706,7 +1189,26 @@
                             <a style="color:MidnightBlue" href="https://iopscience.iop.org/article/10.1088/1742-6596/1229/1/012026">A wearable vision-to-audio sensory substitution device for blind assistance and the correlated neural substrates.</a><br />
                             In International Conference on Graphics, Images and Interactive Techniques (<b>CGIIT</b>), Guangzhou, China, February 2019.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/cgiit2019_yaozu.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/cgiit2019_yaozu.bib">[BibTex]</a>
+                            <button onclick="myFunction_cgiit2019_yaozu();">BibTex</button>
+                            <div id="cgiit2019_yaozu" style="display:none">
+                                @inproceedings{ye2019wearable,<br />
+                                    title={A wearable vision-to-audio sensory substitution device for blind assistance and the correlated neural substrates},<br />
+                                    author={Ye, Yaozu and Wang, Kaiwei and Hu, Weijian and Li, Huabing and Yang, Kailun and Sun, Lei and Chen, Zuobing},<br />
+                                    booktitle={Journal of Physics: Conference Series},<br />
+                                    volume={1229},<br />
+                                    number={1},<br />
+                                    pages={012026},<br />
+                                    year={2019},<br />
+                                    organization={IOP Publishing}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_cgiit2019_yaozu() {
+                                  var x =document.getElementById("cgiit2019_yaozu");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -736,11 +1238,31 @@
                             <a style="color:BLUE" href="http://www.mdpi.com/journal/sensors/special_issues/smart_wearable">[Wearable Smart Devices]</a>
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/18/5/1506/htm">[HTML]</a>
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/18/5/1506/pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/sensors2018_kailun.bib">[BibTex]</a>
-                            <a style="color:BLUE" href="http://wangkaiwei.org/file/terrain%20awareness%20dataset.zip">[DATA]</a>
+                            <a style="color:BLUE" href="https://github.com/elnino9ykl/SS4Blind">[DATA1]</a>
+                            <a style="color:BLUE" href="http://wangkaiwei.org/file/terrain%20awareness%20dataset.zip">[DATA2]</a>
                             <b><a style="color:orangered" href="https://github.com/Katexiang/ERF-PSPNET">[TensorFlow]</a></b>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/ERF-PSPNet">[PyTorch]</a></b>
                             <b><a style="color:orangered" href="https://github.com/dongmingsun/tx2-erfpsp">[NVIDIA TX1/TX2 Implementation]</a></b>
+                            <button onclick="myFunction_sensors2018_kailun();">BibTex</button>
+                            <div id="sensors2018_kailun" style="display:none">
+                                @article{yang2018unifying,<br />
+                                    title={Unifying terrain awareness for the visually impaired through real-time semantic segmentation},<br />
+                                    author={Yang, Kailun and Wang, Kaiwei and Bergasa, Luis and Romera, Eduardo and Hu, Weijian and Sun, Dongming and Sun, Junwei and Cheng, Ruiqi and Chen, Tianxue and L{\'o}pez, Elena},<br />
+                                    journal={Sensors},<br />
+                                    volume={18},<br />
+                                    number={5},<br />
+                                    pages={1506},<br />
+                                    year={2018},<br />
+                                    publisher={Multidisciplinary Digital Publishing Institute}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_sensors2018_kailun() {
+                                  var x =document.getElementById("sensors2018_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -756,7 +1278,26 @@
                             <b>Applied Optics</b>, 2018.
                             <b><a style="color:orangered">[Highlighted as an Editors' Pick]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/ao2018_kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/ao2018_kailun.bib">[BibTex]</a>
+                            <button onclick="myFunction_ao2018_kailun();">BibTex</button>
+                            <div id="ao2018_kailun" style="display:none">
+                                @article{yang2018reducing,<br />
+                                    title={Reducing the minimum range of a RGB-depth sensor to aid navigation in visually impaired individuals},<br />
+                                    author={Yang, Kailun and Wang, Kaiwei and Chen, Hao and Bai, Jian},<br />
+                                    journal={Applied optics},<br />
+                                    volume={57},<br />
+                                    number={11},<br />
+                                    pages={2809--2819},<br />
+                                    year={2018},<br />
+                                    publisher={Optical Society of America}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_ao2018_kailun() {
+                                  var x =document.getElementById("ao2018_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -774,8 +1315,27 @@
                             <a style="color:BLUE" href="https://www.mdpi.com/journal/sensors/special_issues/Sensor_Caring_People_with_Disabilities">[Sensor Technologies for Caring People with Disabilities]</a>
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/18/8/2476/htm">[HTML]</a>
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/18/8/2476/pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/sensors2018_shufei.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.researchgate.net/publication/327360664_Supplementary_Material">[DATA]</a>
+                            <button onclick="myFunction_sensors2018_shufeiruiqi();">BibTex</button>
+                            <div id="sensors2018_shufeiruiqi" style="display:none">
+                                @article{lin2018visual,<br />
+                                    title={Visual localizer: Outdoor localization based on convnet descriptor and global optimization for visually impaired pedestrians},<br />
+                                    author={Lin, Shufei and Cheng, Ruiqi and Wang, Kaiwei and Yang, Kailun},<br />
+                                    journal={Sensors},<br />
+                                    volume={18},<br />
+                                    number={8},<br />
+                                    pages={2476},<br />
+                                    year={2018},<br />
+                                    publisher={Multidisciplinary Digital Publishing Institute}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_sensors2018_shufeiruiqi() {
+                                  var x =document.getElementById("sensors2018_shufeiruiqi");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -790,8 +1350,27 @@
                             <a style="color:MidnightBlue" href="https://link.springer.com/article/10.1007/s11042-017-5472-5">Real-time pedestrian crossing lights detection algorithm for the visually impaired.</a><br />
                             <b>Multimedia Tools and Applications</b>, 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/mta2018_ruiqi.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/mta2018_ruiqi.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/PTLR%20dataset.rar">[DATA]</a>
+                            <button onclick="myFunction_mta2018_ruiqi();">BibTex</button>
+                            <div id="mta2018_ruiqi" style="display:none">
+                                @article{cheng2018real,<br />
+                                    title={Real-time pedestrian crossing lights detection algorithm for the visually impaired},<br />
+                                    author={Cheng, Ruiqi and Wang, Kaiwei and Yang, Kailun and Long, Ningbo and Bai, Jian and Liu, Dong},<br />
+                                    journal={Multimedia Tools and Applications},<br />
+                                    volume={77},<br />
+                                    number={16},<br />
+                                    pages={20651--20671},<br />
+                                    year={2018},<br />
+                                    publisher={Springer}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_mta2018_ruiqi() {
+                                  var x =document.getElementById("mta2018_ruiqi");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -806,9 +1385,27 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/abstract/document/8665211">Intersection perception through real-time semantic segmentation to assist navigation of visually impaired pedestrians.</a><br />
                             In IEEE International Conference on Robotics and Biomimetics (<b>ROBIO</b>), Kuala Lumpur, Malaysia, December 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/robio2018_kailunruiqi.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/robio2018_kailunruiqi.bib">[BibTex]</a>
-                            <a style="color:BLUE" href="http://wangkaiwei.org/file/Crosswalk%20Pixelwise%20Groundtruth.zip">[DATA]</a>
+                            <a style="color:BLUE" href="https://github.com/elnino9ykl/SS4Blind">[DATA1]</a>
+                            <a style="color:BLUE" href="http://wangkaiwei.org/file/Crosswalk%20Pixelwise%20Groundtruth.zip">[DATA2]</a>
                             <a style="color:BLUE" href="http://www.wangkaiwei.org/blog/20181212/20181212eg.html">[BLOG]</a>
+                            <button onclick="myFunction_robio2018_kailunruiqi();">BibTex</button>
+                            <div id="robio2018_kailunruiqi" style="display:none">
+                                @inproceedings{yang2018intersection,<br />
+                                    title={Intersection perception through real-time semantic segmentation to assist navigation of visually impaired pedestrians},<br />
+                                    author={Yang, Kailun and Cheng, Ruiqi and Bergasa, Luis M and Romera, Eduardo and Wang, Kaiwei and Long, Ningbo},<br />
+                                    booktitle={2018 IEEE International Conference on Robotics and Biomimetics (ROBIO)},<br />
+                                    pages={1034--1039},<br />
+                                    year={2018},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_robio2018_kailunruiqi() {
+                                  var x =document.getElementById("robio2018_kailunruiqi");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -823,8 +1420,25 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/abstract/document/8664804">Perception framework of water hazards beyond traversability for real-world navigation assistance systems.</a><br />
                             In IEEE International Conference on Robotics and Biomimetics (<b>ROBIO</b>), Kuala Lumpur, Malaysia, December 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/robio2018_kailunjuan.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/robio2018_kailunjuan.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/pRGB-D%20dataset.rar">[DATA]</a>
+                            <button onclick="myFunction_robio2018_kailunjuan();">BibTex</button>
+                            <div id="robio2018_kailunjuan" style="display:none">
+                                @inproceedings{yang2018perception,<br />
+                                    title={Perception framework of water hazards beyond traversability for real-world navigation assistance systems},<br />
+                                    author={Yang, Kailun and Bergasa, Luis M and Romera, Eduardo and Wang, Juan and Wang, Kaiwei and L{\'o}pez, Elena},<br />
+                                    booktitle={2018 IEEE International Conference on Robotics and Biomimetics (ROBIO)},<br />
+                                    pages={186--191},<br />
+                                    year={2018},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_robio2018_kailunjuan() {
+                                  var x =document.getElementById("robio2018_kailunjuan");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -840,10 +1454,27 @@
                             In IEEE-RAS International Conference on Humanoid Robots (<b>Humanoids</b>), Beijing, China, November 2018.
                             <b><a style="color:orangered">[Spotlight Paper]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/humanoids2018_kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/humanoids2018_kailun.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/Polarization%20Prediction%20Dataset.rar">[DATA]</a>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/ERF-PSPNet">[PyTorch]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20181110/20181110eg.html">[BLOG]</a>
+                            <button onclick="myFunction_humanoids2018_kailun();">BibTex</button>
+                            <div id="humanoids2018_kailun" style="display:none">
+                                @inproceedings{yang2018predicting,<br />
+                                    title={Predicting polarization beyond semantics for wearable robotics},<br />
+                                    author={Yang, Kailun and Bergasa, Luis M and Romera, Eduardo and Huang, Xiao and Wang, Kaiwei},<br />
+                                    booktitle={2018 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)},<br />
+                                    pages={96--103},<br />
+                                    year={2018},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_humanoids2018_kailun() {
+                                  var x =document.getElementById("humanoids2018_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -854,12 +1485,29 @@
                     <tr>
                         <td class="table_image_spec" align="center"><img src="./images/smc2018_juan.jpg" alt="" width="250"></td>
                         <td id="divdash">
-                            J. Wang, <b>K. Yang</b>, W. Hu, K. Wang.
-                            <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/document/8616328/">An environmental perception and navigational assistance system for visually impaired persons based on semantic stixels and sound interaction.</a>
+                            J. Wang, <b>K. Yang</b>, W. Hu, K. Wang.<br />
+                            <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/document/8616328/">An environmental perception and navigational assistance system for visually impaired persons based on semantic stixels and sound interaction.</a><br />
                             In IEEE International Conference on Systems, Man, and Cybernetics (<b>SMC</b>), Miyazaki, Japan, October 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/smc2018_juan.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/smc2018_juan.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20181012/20181012eg.html">[BLOG]</a>
+                            <button onclick="myFunction_smc2018_juan();">BibTex</button>
+                            <div id="smc2018_juan" style="display:none">
+                                @inproceedings{wang2018environmental,<br />
+                                    title={An environmental perception and navigational assistance system for visually impaired persons based on semantic stixels and sound interaction},<br />
+                                    author={Wang, Juan and Yang, Kailun and Hu, Weijian and Wang, Kaiwei},<br />
+                                    booktitle={2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},<br />
+                                    pages={1921--1926},<br />
+                                    year={2018},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_smc2018_juan() {
+                                  var x =document.getElementById("smc2018_juan");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -875,8 +1523,27 @@
                             In IET International Radar Conference (<b>IRC</b>), Nanjing, China, October 2018.
                             <b><a style="color:orangered">[Excellent Paper Award]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/irc2018_ningbo.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/irc2018_ningbo.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180825/20180825eg.html">[BLOG]</a>
+                            <button onclick="myFunction_irc2018_ningbo();">BibTex</button>
+                            <div id="irc2018_ningbo" style="display:none">
+                                @article{long2019low,<br />
+                                    title={Low power millimeter wave radar system for the visually impaired},<br />
+                                    author={Long, Ningbo and Wang, Kaiwei and Cheng, Ruiqi and Hu, Weijian and Yang, Kailun},<br />
+                                    journal={The Journal of Engineering},<br />
+                                    volume={2019},<br />
+                                    number={19},<br />
+                                    pages={6034--6038},<br />
+                                    year={2019},<br />
+                                    publisher={IET}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_irc2018_ningbo() {
+                                  var x =document.getElementById("irc2018_ningbo");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -933,9 +1600,27 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/document/8519526">Semantic perception of curbs beyond traversability for real-world navigation assistance systems.</a><br />
                             In IEEE International Conference on Vehicular Electronics and Safety (<b>ICVES</b>), Madrid, Spain, September 2018.
                             <a style="color:BLUE" href="http://www.robesafe.uah.es/personal/bergasa/papers/icves2018.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/icves2018_kailun.bib">[BibTex]</a>
-                            <a style="color:BLUE" href="http://wangkaiwei.org/file/Curbs%20Dataset.zip">[DATA]</a>
+                            <a style="color:BLUE" href="https://github.com/elnino9ykl/SS4Blind">[DATA1]</a>
+                            <a style="color:BLUE" href="http://wangkaiwei.org/file/Curbs%20Dataset.zip">[DATA2]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180914/20180914eg.html">[BLOG]</a>
+                            <button onclick="myFunction_icves2018_kailun();">BibTex</button>
+                            <div id="icves2018_kailun" style="display:none">
+                                @inproceedings{yang2018semantic,<br />
+                                    title={Semantic perception of curbs beyond traversability for real-world navigation assistance systems},<br />
+                                    author={Yang, Kailun and Bergasa, Luis M and Romera, Eduardo and Sun, Dongming and Wang, Kaiwei and Barea, Rafael},<br />
+                                    booktitle={2018 IEEE International Conference on Vehicular Electronics and Safety (ICVES)},<br />
+                                    pages={1--7},<br />
+                                    year={2018},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_icves2018_kailun() {
+                                  var x =document.getElementById("icves2018_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -951,9 +1636,27 @@
                             In SPIE Security + Defence Symposium, Berlin, Germany, September 2018.
                             <b><a style="color:orangered">[Best Student Paper]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/securitydefence2018_lei.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/spie2018_lei.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10794/107940S/Scene-text-detection-and-recognition-system-for-visually-impaired-people/10.1117/12.2325523.short">[Presentation]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180915/20180915eg.html">[BLOG]</a>
+                            <button onclick="myFunction_spie2018_lei();">BibTex</button>
+                            <div id="spie2018_lei" style="display:none">
+                                @inproceedings{fei2018scene,<br />
+                                    title={Scene text detection and recognition system for visually impaired people in real world},<br />
+                                    author={Fei, Lei and Wang, Kaiwei and Lin, Shufei and Yang, Kailun and Cheng, Ruiqi and Chen, Hao},<br />
+                                    booktitle={Target and Background Signatures IV},<br />
+                                    volume={10794},<br />
+                                    pages={107940S},<br />
+                                    year={2018},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2018_lei() {
+                                  var x =document.getElementById("spie2018_lei");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -968,8 +1671,26 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10800/1080006/Fusion-of-millimeter-wave-radar-and-RGB-depth-sensors-for/10.1117/12.2324626.short">Fusion of Millimeter wave Radar and RGB-Depth sensors for assisted navigation of the visually impaired.</a><br />
                             In SPIE Security + Defence Symposium, Berlin, Germany, September 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/securitydefence2018_ningbo.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/spie2018_ningbo.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10800/1080006/Fusion-of-millimeter-wave-radar-and-RGB-depth-sensors-for/10.1117/12.2324626.short">[Presentation]</a>
+                            <button onclick="myFunction_spie2018_ningbo();">BibTex</button>
+                            <div id="spie2018_ningbo" style="display:none">
+                                @inproceedings{long2018fusion,<br />
+                                    title={Fusion of millimeter wave radar and RGB-depth sensors for assisted navigation of the visually impaired},<br />
+                                    author={Long, Ningbo and Wang, Kaiwei and Cheng, Ruiqi and Yang, Kailun and Bai, Jian},<br />
+                                    booktitle={Millimetre Wave and Terahertz Sensors and Technology XI},<br />
+                                    volume={10800},<br />
+                                    pages={1080006},<br />
+                                    year={2018},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2018_ningbo() {
+                                  var x =document.getElementById("spie2018_ningbo");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -984,8 +1705,26 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10794/107940F/Glass-detection-and-recognition-based-on-the-fusion-of-ultrasonic/10.1117/12.2325496.short">Glass Detection and Recognition Based on the Fusion of Ultrasonic Sensor and RGB-D Sensor for the Visually Impaired.</a><br />
                             In SPIE Security + Defence Symposium, Berlin, Germany, September 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/securitydefence2018_zhiming.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/spie2018_zhiming.bib">[BibTex]</a>
                             <a style="color:BLUE" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10794/107940F/Glass-detection-and-recognition-based-on-the-fusion-of-ultrasonic/10.1117/12.2325496.short">[Presentation]</a>
+                            <button onclick="myFunction_spie2018_zhiming();">BibTex</button>
+                            <div id="spie2018_zhiming" style="display:none">
+                                @inproceedings{huang2018glass,<br />
+                                    title={Glass detection and recognition based on the fusion of ultrasonic sensor and RGB-D sensor for the visually impaired},<br />
+                                    author={Huang, Zhiming and Wang, Kaiwei and Yang, Kailun and Cheng, Ruiqi and Bai, Jian},<br />
+                                    booktitle={Target and Background Signatures IV},<br />
+                                    volume={10794},<br />
+                                    pages={107940F},<br />
+                                    year={2018},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_spie2018_zhiming() {
+                                  var x =document.getElementById("spie2018_zhiming");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1001,10 +1740,27 @@
                             In International Conference on Pattern Recognition (<b>ICPR</b>), Beijing, China, August 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icpr2018_ruiqi.pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://arxiv.org/abs/1810.03790">[arxiv]</a>
-                            <a style="color:BLUE" href="./bibs/icpr2018_ruiqi.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/VLdataset.rar">[DATA]</a>
                             <b><a style="color:orangered" href="https://github.com/chengricky/OpenMultiPR">[CODE]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180824/20180824eg.html">[BLOG]</a>
+                            <button onclick="myFunction_icpr2018_ruiqi();">BibTex</button>
+                            <div id="icpr2018_ruiqi" style="display:none">
+                                @inproceedings{cheng2018visual,<br />
+                                    title={Visual localization of key positions for visually impaired people},<br />
+                                    author={Cheng, Ruiqi and Wang, Kaiwei and Lin, Longqing and Yang, Kailun},<br />
+                                    booktitle={2018 24th International Conference on Pattern Recognition (ICPR)},<br />
+                                    pages={2893--2898},<br />
+                                    year={2018},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_icpr2018_ruiqi() {
+                                  var x =document.getElementById("icpr2018_ruiqi");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1019,8 +1775,25 @@
                             <a style="color:MidnightBlue" href="https://link.springer.com/chapter/10.1007/978-3-319-94274-2_9">KrNet: A Kinetic Real-time Convolutional Neural Network for Navigational Assistance.</a><br />
                             In International Conference on Computers Helping People with Special Needs (<b>ICCHP</b>), Linz, Austria, July 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icchp2018_shufei.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/icchp2018_shufei.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180715/20180715eg.html">[BLOG]</a>
+                            <button onclick="myFunction_icchp2018_shufei();">BibTex</button>
+                            <div id="icchp2018_shufei" style="display:none">
+                                @inproceedings{lin2018krnet,<br />
+                                    title={KrNet: A kinetic real-time convolutional neural network for navigational assistance},<br />
+                                    author={Lin, Shufei and Wang, Kaiwei and Yang, Kailun and Cheng, Ruiqi},<br />
+                                    booktitle={International Conference on Computers Helping People with Special Needs},<br />
+                                    pages={55--62},<br />
+                                    year={2018},<br />
+                                    organization={Springer}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_icchp2018_shufei() {
+                                  var x =document.getElementById("icchp2018_shufei");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1035,12 +1808,30 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/document/8500506">Unifying terrain awareness through real-time semantic segmentation.</a><br />
                             In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Suzhou, China, June 2018.
                             <a style="color:BLUE" href="http://www.robesafe.es/personal/bergasa/papers/iv2018_kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/iv2018_kailun.bib">[BibTex]</a>
                             <b><a style="color:orangered" href="http://www.robesafe.es/personal/bergasa/videos/Video.mp4">[VIDEO]</a></b>
-                            <a style="color:BLUE" href="http://wangkaiwei.org/file/terrain%20awareness%20dataset.zip">[DATA]</a>
+                            <a style="color:BLUE" href="https://github.com/elnino9ykl/SS4Blind">[DATA1]</a>
+                            <a style="color:BLUE" href="http://wangkaiwei.org/file/terrain%20awareness%20dataset.zip">[DATA2]</a>
                             <b><a style="color:orangered" href="https://github.com/Katexiang/ERF-PSPNET">[TensorFlow]</a></b>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/ERF-PSPNet">[PyTorch]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20180630/20180630eg.html">[BLOG]</a>
+                            <button onclick="myFunction_iv2018_kailun();">BibTex</button>
+                            <div id="iv2018_kailun" style="display:none">
+                                @inproceedings{yang2018unifying,<br />
+                                    title={Unifying terrain awareness through real-time semantic segmentation},<br />
+                                    author={Yang, Kailun and Bergasa, Luis M and Romera, Eduardo and Cheng, Ruiqi and Chen, Tianxue and Wang, Kaiwei},<br />
+                                    booktitle={2018 IEEE Intelligent Vehicles Symposium (IV)},<br />
+                                    pages={1033--1038},<br />
+                                    year={2018},<br />
+                                    organization={IEEE}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_iv2018_kailun() {
+                                  var x =document.getElementById("iv2018_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1055,7 +1846,24 @@
                             <a style="color:MidnightBlue" href="https://dl.acm.org/citation.cfm?id=3209943">Long-range Traversability Awareness and Low-lying Obstacle Negotiation with RealSense for the Visually Impaired.</a><br />
                             In International Conference on Information Science and System (<b>ICISS</b>), Jeju Island, South Korea, April 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/iciss2018_kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/iciss2018_kailun.bib">[BibTex]</a>
+                            <button onclick="myFunction_iciss2018_kailun();">BibTex</button>
+                            <div id="iciss2018_kailun" style="display:none">
+                                @inproceedings{yang2018long,<br />
+                                    title={Long-range traversability awareness and low-lying obstacle negotiation with RealSense for the visually impaired},<br />
+                                    author={Yang, Kailun and Wang, Kaiwei and Lin, Shufei and Bai, Jian and Bergasa, Luis M and Arroyo, Roberto},<br />
+                                    booktitle={Proceedings of the 2018 International Conference on Information Science and System},<br />
+                                    pages={137--141},<br />
+                                    year={2018},<br />
+                                    organization={ACM}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_iciss2018_kailun() {
+                                  var x =document.getElementById("iciss2018_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1070,7 +1878,24 @@
                             <a style="color:MidnightBlue" href="https://dl.acm.org/citation.cfm?id=3209944">Improving RealSense by Fusing Color Stereo Vision and Infrared Stereo Vision for the Visually Impaired.</a><br />
                             In International Conference on Information Science and System (<b>ICISS</b>), Jeju Island, South Korea, April 2018.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/iciss2018_hao.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/iciss2018_hao.bib">[BibTex]</a>
+                            <button onclick="myFunction_iciss2018_hao();">BibTex</button>
+                            <div id="iciss2018_hao" style="display:none">
+                                @inproceedings{chen2018improving,<br />
+                                    title={Improving RealSense by Fusing Color Stereo Vision and Infrared Stereo Vision for the Visually Impaired},<br />
+                                    author={Chen, Hao and Wang, Kaiwei and Yang, Kailun},<br />
+                                    booktitle={Proceedings of the 2018 International Conference on Information Science and System},<br />
+                                    pages={142--146},<br />
+                                    year={2018},<br />
+                                    organization={ACM}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_iciss2018_hao() {
+                                  var x =document.getElementById("iciss2018_hao");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1128,8 +1953,27 @@
                             <b>Sensors</b>, 2017.
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/17/8/1890/htm">[HTML]</a>
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/17/8/1890/pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/sensors2017_kailun.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/pRGB-D%20dataset.rar">[DATA]</a>
+                            <button onclick="myFunction_sensors2017_kailun();">BibTex</button>
+                            <div id="sensors2017_kailun" style="display:none">
+                                @article{yang2017detecting,<br />
+                                    title={Detecting traversable area and water hazards for the visually impaired with a pRGB-D sensor},<br />
+                                    author={Yang, Kailun and Wang, Kaiwei and Cheng, Ruiqi and Hu, Weijian and Huang, Xiao and Bai, Jian},<br />
+                                    journal={Sensors},<br />
+                                    volume={17},<br />
+                                    number={8},<br />
+                                    pages={1890},<br />
+                                    year={2017},<br />
+                                    publisher={Multidisciplinary Digital Publishing Institute}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_sensors2017_kailun() {
+                                  var x =document.getElementById("sensors2017_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1144,7 +1988,26 @@
                             <a style="color:MidnightBlue" href="https://content.iospress.com/articles/journal-of-ambient-intelligence-and-smart-environments/ais459">IR stereo RealSense: Decreasing minimum range of navigational assistance for visually impaired individuals.</a><br />
                             <b>Journal of Ambient Intelligence and Smart Environments</b>, 2017.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/jaise2017_kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/jaise2017_kailun.bib">[BibTex]</a>
+                            <button onclick="myFunction_jaise2017_kailun();">BibTex</button>
+                            <div id="jaise2017_kailun" style="display:none">
+                                @article{yang2017ir,<br />
+                                    title={IR stereo RealSense: Decreasing minimum range of navigational assistance for visually impaired individuals},<br />
+                                    author={Yang, Kailun and Wang, Kaiwei and Zhao, Xiangdong and Cheng, Ruiqi and Bai, Jian and Yang, Yongying and Liu, Dong},<br />
+                                    journal={Journal of Ambient Intelligence and Smart Environments},<br />
+                                    volume={9},<br />
+                                    number={6},<br />
+                                    pages={743--755},<br />
+                                    year={2017},<br />
+                                    publisher={IOS Press}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_jaise2017_kailun() {
+                                  var x =document.getElementById("jaise2017_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1159,8 +2022,28 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/journals/Journal-of-Electronic-Imaging/volume-26/issue-5/053025/Crosswalk-navigation-for-people-with-visual-impairments-on-a-wearable/10.1117/1.JEI.26.5.053025.short?SSO=1">Crosswalk navigation for people with visual impairments on a wearable device.</a><br />
                             <b>Journal of Electronic Imaging</b>, 2017.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/jei2017_ruiqi.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/jei2017_ruiqi.bib">[BibTex]</a>
-                            <a style="color:BLUE" href="http://wangkaiwei.org/file/crosswalk%20DATASET.rar">[DATA]</a>
+                            <a style="color:BLUE" href="http://wangkaiwei.org/file/crosswalk%20DATASET.rar">[DATA1]</a>
+                            <a style="color:BLUE" href="https://github.com/elnino9ykl/SS4Blind">[DATA2]</a>
+                            <button onclick="myFunction_jei2017_ruiqi();">BibTex</button>
+                            <div id="jei2017_ruiqi" style="display:none">
+                                @article{cheng2017crosswalk,<br />
+                                    title={Crosswalk navigation for people with visual impairments on a wearable device},<br />
+                                    author={Cheng, Ruiqi and Wang, Kaiwei and Yang, Kailun and Long, Ningbo and Hu, Weijian and Chen, Hao and Bai, Jian and Liu, Dong},<br />
+                                    journal={Journal of Electronic Imaging},<br />
+                                    volume={26},<br />
+                                    number={5},<br />
+                                    pages={053025},<br />
+                                    year={2017},<br />
+                                    publisher={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_jei2017_ruiqi() {
+                                  var x =document.getElementById("jei2017_ruiqi");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1176,7 +2059,26 @@
                             <b>Optics Express</b>, 2017.
                             <a style="color:BLUE" href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-25-2-1173&id=357437">[HTML]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/oe2017_xiao.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/oe2017_xiao.bib">[BibTex]</a>
+                            <button onclick="myFunction_oe2017_xiao();">BibTex</button>
+                            <div id="oe2017_xiao" style="display:none">
+                                @article{huang2017target,<br />
+                                    title={Target enhanced 3D reconstruction based on polarization-coded structured light},<br />
+                                    author={Huang, Xiao and Bai, Jian and Wang, Kaiwei and Liu, Qun and Luo, Yujie and Yang, Kailun and Zhang, Xianjing},<br />
+                                    journal={Optics express},<br />
+                                    volume={25},<br />
+                                    number={2},<br />
+                                    pages={1173--1184},<br />
+                                    year={2017},<br />
+                                    publisher={Optical Society of America}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_oe2017_xiao() {
+                                  var x =document.getElementById("oe2017_xiao");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1204,7 +2106,26 @@
                             <b>Sensors</b>, 2016.
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/16/11/1954/htm">[HTML]</a>
                             <a style="color:BLUE" href="http://www.mdpi.com/1424-8220/16/11/1954/pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/sensors2016_kailun.bib">[BibTex]</a>
+                            <button onclick="myFunction_sensors2016_kailun();">BibTex</button>
+                            <div id="sensors2016_kailun" style="display:none">
+                                @article{yang2016expanding,<br />
+                                    title={Expanding the detection of traversable area with RealSense for the visually impaired},<br />
+                                    author={Yang, Kailun and Wang, Kaiwei and Hu, Weijian and Bai, Jian},<br />
+                                    journal={Sensors},<br />
+                                    volume={16},<br />
+                                    number={11},<br />
+                                    pages={1954},<br />
+                                    year={2016},<br />
+                                    publisher={Multidisciplinary Digital Publishing Institute}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_sensors2016_kailun() {
+                                  var x =document.getElementById("sensors2016_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1219,7 +2140,25 @@
                             <a style="color:MidnightBlue" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10225/1022509/Unconstrained-face-detection-and-recognition-based-on-RGB-D-camera/10.1117/12.2266122.short">Unconstrained face detection and recognition based on RGB-D camera for the visually impaired.</a><br />
                             In International Conference on Graphic and Image Processing (<b>ICGIP</b>), Tokyo, Japan, August 2016.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icgip2016_xiangdong.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/icgip2016_xiangdong.bib">[BibTex]</a>
+                            <button onclick="myFunction_icgip2016_xiangdong();">BibTex</button>
+                            <div id="icgip2016_xiangdong" style="display:none">
+                                @inproceedings{zhao2017unconstrained,<br />
+                                    title={Unconstrained face detection and recognition based on RGB-D camera for the visually impaired},<br />
+                                    author={Zhao, Xiangdong and Wang, Kaiwei and Yang, Kailun and Hu, Weijian},<br />
+                                    booktitle={Eighth International Conference on Graphic and Image Processing (ICGIP 2016)},<br />
+                                    volume={10225},<br />
+                                    pages={1022509},<br />
+                                    year={2017},<br />
+                                    organization={International Society for Optics and Photonics}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_icgip2016_xiangdong() {
+                                  var x =document.getElementById("icgip2016_xiangdong");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1246,8 +2185,25 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/abstract/document/7450354/">A new approach of point cloud processing and scene segmentation for guiding the visually impaired.</a><br />
                             In IET International Conference on Biomedical Image and Signal Processing (<b>ICBISP</b>), Beijing, China, November 2015.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icbisp2015_kailun.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/icbisp2015_kailun.bib">[BibTex]</a>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20151119/20151119eg.html">[BLOG]</a>
+                            <button onclick="myFunction_icbisp2015_kailun();">BibTex</button>
+                            <div id="icbisp2015_kailun" style="display:none">
+                                @inproceedings{yang2015new,<br />
+                                    title={A new approach of point cloud processing and scene segmentation for guiding the visually impaired},<br />
+                                    author={Yang, Kailun and Wang, Kaiwei and Cheng, Ruiqi and Zhu, Xunmin},<br />
+                                    booktitle={2015 IET International Conference on Biomedical Image and Signal Processing (ICBISP 2015)},<br />
+                                    pages={1--6},<br />
+                                    year={2015},<br />
+                                    organization={IET}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_icbisp2015_kailun() {
+                                  var x =document.getElementById("icbisp2015_kailun");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -1262,7 +2218,24 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/abstract/document/7450353/">A ground and obstacle detection algorithm for the visually impaired.</a><br />
                             In IET International Conference on Biomedical Image and Signal Processing (<b>ICBISP</b>), Beijing, China, November 2015.
                             <a style="color:BLUE" href="http://wangkaiwei.org/file/publications/icbisp2015_ruiqi.pdf">[PDF]</a>
-                            <a style="color:BLUE" href="./bibs/icbisp2015_ruiqi.bib">[BibTex]</a>
+                            <button onclick="myFunction_icbisp2015_ruiqi();">BibTex</button>
+                            <div id="icbisp2015_ruiqi" style="display:none">
+                                @inproceedings{cheng2015ground,<br />
+                                    title={A ground and obstacle detection algorithm for the visually impaired},<br />
+                                    author={Cheng, Ruiqi and Wang, Kaiwei and Yang, Kailun and Zhao, Xiangdong},<br />
+                                    booktitle={2015 IET International Conference on Biomedical Image and Signal Processing (ICBISP 2015)},<br />
+                                    pages={1--6},<br />
+                                    year={2015},<br />
+                                    organization={IET}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_icbisp2015_ruiqi() {
+                                  var x =document.getElementById("icbisp2015_ruiqi");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
