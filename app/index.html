@@ -251,7 +251,6 @@
             </table>
         </div>
 
-
             <div>
             <table cellpadding="8">
                 <tr>
@@ -352,9 +351,30 @@
                         <td class="table_image_spec" align="center"><img src="./images/sensors2020_yicheng.jpg" alt="" width="250"></td>
                         <td id="divdash">
                             Y. Fang, <b>K. Yang</b>, R. Cheng, L. Sun, K. Wang.<br />
-                            <a style="color:Midnightblue">A panoramic localizer based on coarse-to-fine descriptors for navigation assistance.</a><br />
+                            <a style="color:Midnightblue" href="https://www.mdpi.com/1424-8220/20/15/4177">A Panoramic Localizer Based on Coarse-to-Fine Descriptors for Navigation Assistance.</a><br />
                             <b>Sensors</b>, 2020.
+                            <a style="color:BLUE" href="https://www.mdpi.com/1424-8220/20/15/4177/pdf">[PDF]</a>
                             <a style="color:BLUE" href="https://github.com/dachengzihhh/Chengyuan-dataset">[DATA]</a>
+                            <button onclick="myFunction_sensors2020_yicheng();">BibTex</button>
+                            <div id="sensors2020_yicheng" style="display:none">
+                                @article{fang2020panoramic,<br />
+                                    title={A Panoramic Localizer Based on Coarse-to-Fine Descriptors for Navigation Assistance},<br />
+                                    author={Fang, Yicheng and Yang, Kailun and Cheng, Ruiqi and Sun, Lei and Wang, Kaiwei},<br />
+                                    journal={Sensors},<br />
+                                    volume={20},<br />
+                                    number={15},<br />
+                                    pages={4177},<br />
+                                    year={2020},<br />
+                                    publisher={Multidisciplinary Digital Publishing Institute}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_sensors2020_yicheng() {
+                                  var x =document.getElementById("sensors2020_yicheng");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -457,7 +477,7 @@
                         <td id="divdash">
                             Y. Ye, <b>K. Yang</b>, K. Xiang, J. Wang, K. Wang.<br />
                             <a style="color:MidnightBlue">Universal Semantic Segmentation for Fisheye Urban Driving Images.</a><br />
-                            Submitted to IEEE International Conference on Systems, Man, and Cybernetics (<b>SMC</b>), Toronto, Canada, October 2020.
+                            Submitted to IEEE International Conference on Systems, Man, and Cybernetics (<b>SMC</b>), Online, October 2020.
                             <a style="color:BLUE" href="https://arxiv.org/pdf/2002.03736">[PDF]</a>
                             <b><a style="color:orangered" href="https://github.com/Yaozhuwa/FisheyeSeg">[CODE]</a></b>
                             <button onclick="myFunction_smc2020_yaozu();">BibTex</button>
