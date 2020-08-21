@@ -213,7 +213,7 @@
 
         <p style="font-family:'Candara', 'Microsoft YaHei', sans-serif">
             <b style="font-size:150%;">Research Interests</b><br />
-            My research is in real-time computer vision for intelligent vehicles and wearable systems to support real-world navigation of visually impaired people.<br />
+            My research is in real-time computer vision for intelligent vehicles and real-world navigation assistance systems for visually impaired people.<br />
             <!--Over the past few years, I have focused on traversable area parsing, semantic segmentation, polarization imaging, panoramic annular sensing, depth estimation, and obstacle detection.<br />-->
             <!--Broadly I am interested in computer vision, optical imaging, deep learning, and their applications for autonomous vehicles, robotics, intelligent transportation systems, and assistive technologies for people with visual impairments.-->
         </p>
@@ -314,6 +314,50 @@
             <div>
                 <table cellpadding="8">
                     <tr>
+                        <td class="table_image_spec" align="center"><img src="./images/ral2020_jiaming.jpg" alt="" width="250"></td>
+                        <td id="divdash">
+                            J. Zhang, <b>K. Yang</b>, R. Stiefelhagen.<br />
+                            <a style="color:MidnightBlue">ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data.</a><br />
+                            Submitted to <b>IEEE Robotics and Automation Letters</b> with IEEE International Conference on Robotics and Automation (<b>ICRA</b>), Xi'an, China, May 2021.
+                            <a style="color:BLUE" href="https://arxiv.org/pdf/2008.08974.pdf">[PDF]</a>
+                            <b><a style="color:orangered" href="https://github.com/jamycheung/ISSAFE">[DATA+CODE]</a></b>
+                            <button onclick="myFunction_ral2020_jiaming();">BibTex</button>
+                            <div id="ral2020_jiaming" style="display:none">
+                                @article{zhang2020issafe,<br />
+                                    title={ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data},<br />
+                                    author={Zhang, Jiaming and Yang, Kailun and Stiefelhagen, Rainer},<br />
+                                    journal={arXiv preprint arXiv:2008.08974},<br />
+                                    year={2020}<br />
+                                  }
+                            </div>
+                            <script>
+                                function myFunction_ral2020_jiaming() {
+                                  var x =document.getElementById("ral2020_jiaming");
+                                  if (x.style.display == "none") {x.style.display = "block";} 
+                                  else {x.style.display = "none";}
+                                }
+                            </script>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <table cellpadding="8">
+                    <tr>
+                        <td class="table_image_spec" align="center"><img src="./images/sensors2020_manuel.jpg" alt="" width="250"></td>
+                        <td id="divdash">
+                            M. Martinez, <b>K. Yang</b>, A. Constantinescu, R. Stiefelhagen.<br />
+                            <a style="color:MidnightBlue">Helping the blind getting through COVID-19: Social Distancing Assistant Using Real-Time Semantic Segmentation on RGB-D Video.</a><br />
+                            Submitted to <b>Sensors</b>, 2020.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <table cellpadding="8">
+                    <tr>
                         <td class="table_image_spec" align="center"><img src="./images/sensors2020_weijian.jpg" alt="" width="250"></td>
                         <td id="divdash">
                             W. Hu, K. Wang, <b>K. Yang</b>, R. Cheng, Y. Ye, L. Sun, Z. Xu.<br />
@@ -387,10 +431,10 @@
                         <td id="divdash">
                             W. Mao, J. Zhang, <b>K. Yang</b>, R. Stiefelhagen.<br />
                             <a style="color:Midnightblue">Can we cover navigational perception needs of the visually impaired by panoptic segmentation?</a><br />
-                            In Submission, 2020.
+                            In Arxiv, 2020.
                             <a style="color:BLUE" href="https://arxiv.org/pdf/2007.10202">[PDF]</a>
-                            <button onclick="myFunction_arxiv2020_mao();">BibTex</button>
-                            <div id="arxiv2020_mao" style="display:none">
+                            <button onclick="myFunction_arxiv2020_wei();">BibTex</button>
+                            <div id="arxiv2020_wei" style="display:none">
                                 @article{mao2020can,<br />
                                     title={Can we cover navigational perception needs of the visually impaired by panoptic segmentation?},<br />
                                     author={Mao, Wei and Zhang, Jiaming and Yang, Kailun and Stiefelhagen, Rainer},<br />
@@ -399,8 +443,8 @@
                                   }
                             </div>
                             <script>
-                                function myFunction_arxiv2020_mao() {
-                                  var x =document.getElementById("arxiv2020_mao");
+                                function myFunction_arxiv2020_wei() {
+                                  var x =document.getElementById("arxiv2020_wei");
                                   if (x.style.display == "none") {x.style.display = "block";} 
                                   else {x.style.display = "none";}
                                 }
@@ -417,7 +461,7 @@
                         <td id="divdash">
                             <b>K. Yang</b>, X. Hu, K. Wang, R. Stiefelhagen.<br />
                             <a style="color:MidnightBlue">In Defense of Multi-Source Omni-Supervised Efficient ConvNet for Robust Semantic Segmentation in Heterogeneous Unseen Domains.</a><br />
-                            In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Las Vegas, United States, October 2020.
+                            In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Online, October 2020.
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/OmniSupervised-ConvNet">[DATA+CODE]</a></b>
                         </td>
                     </tr>
@@ -431,7 +475,7 @@
                         <td id="divdash">
                             <b>K. Yang</b>, X. Hu, H. Chen, K. Xiang, K. Wang, R. Stiefelhagen.<br />
                             <a style="color:MidnightBlue">DS-PASS: Detail-Sensitive Panoramic Annular Semantic Segmentation through SwaftNet for Surrounding Sensing.</a><br />
-                            In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Las Vegas, United States, October 2020.
+                            In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Online, October 2020.
                             <a style="color:BLUE" href="https://arxiv.org/pdf/1909.07721">[PDF]</a>
                             <b><a style="color:orangered" href="https://youtu.be/pvhpxbdrA_4">[VIDEO]</a></b>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/DS-PASS">[DATA+CODE]</a></b>
@@ -462,8 +506,8 @@
                         <td class="table_image_spec" align="center"><img src="./images/iv2020_yicheng.jpg" alt="" width="250"></td>
                         <td id="divdash">
                             Y. Fang, K. Wang, R. Cheng, <b>K. Yang</b>.<br />
-                            <a style="color:MidnightBlue">CFVL: A Coarse-to-Fine Vehicle Localizer with Omnidirectional Perception across Severe Appearance Variations</a><br />
-                            In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Las Vegas, United States, October 2020.
+                            <a style="color:MidnightBlue">CFVL: A Coarse-to-Fine Vehicle Localizer with Omnidirectional Perception across Severe Appearance Variations.</a><br />
+                            In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Online, October 2020.
                             <a style="color:BLUE" href="https://github.com/dachengzihhh/Chengyuan-dataset">[DATA]</a>
                         </td>
                     </tr>
@@ -477,7 +521,7 @@
                         <td id="divdash">
                             Y. Ye, <b>K. Yang</b>, K. Xiang, J. Wang, K. Wang.<br />
                             <a style="color:MidnightBlue">Universal Semantic Segmentation for Fisheye Urban Driving Images.</a><br />
-                            Submitted to IEEE International Conference on Systems, Man, and Cybernetics (<b>SMC</b>), Online, October 2020.
+                            In IEEE International Conference on Systems, Man, and Cybernetics (<b>SMC</b>), Online, October 2020.
                             <a style="color:BLUE" href="https://arxiv.org/pdf/2002.03736">[PDF]</a>
                             <b><a style="color:orangered" href="https://github.com/Yaozhuwa/FisheyeSeg">[CODE]</a></b>
                             <button onclick="myFunction_smc2020_yaozu();">BibTex</button>
@@ -521,21 +565,8 @@
                         <td class="table_image_spec" align="center"><img src="./images/icchp2020_haoye.jpg" alt="" width="250"></td>
                         <td id="divdash">
                             H. Chen, Y. Zhang, <b>K. Yang</b>, M. Martinez, K. Müller, R. Stiefelhagen.<br />
-                            <a style="color:MidnightBlue">Can We Unify Perception and Localization in Assisted Navigation? An Indoor Semantic Visual Positioning System for Visually Impaired People</a><br />
+                            <a style="color:MidnightBlue">Can We Unify Perception and Localization in Assisted Navigation? An Indoor Semantic Visual Positioning System for Visually Impaired People.</a><br />
                             In International Conference on Computers Helping People with Special Needs (<b>ICCHP</b>), Online, September 2020.
-                        </td>
-                    </tr>
-                </table>
-            </div>
-
-            <div>
-                <table cellpadding="8">
-                    <tr>
-                        <td class="table_image_spec" align="center"><img src="./images/spie2020_ran.jpg" alt="" width="250"></td>
-                        <td id="divdash">
-                            R. Yan, K. Wang, K. Xiang, <b>K. Yang</b>, H. Li, Z. Xu.<br />
-                            <a style="color:MidnightBlue">A RGB-P semantic segmentation approach based on teacher-student learning</a><br />
-                            Submitted to SPIE Security + Defence Symposium, Edinburgh, United Kingdom, September 2020.
                         </td>
                     </tr>
                 </table>
@@ -548,7 +579,7 @@
                         <td id="divdash">
                             K. Zhou, K. Wang, <b>K. Yang</b>.<br />
                             <a style="color:MidnightBlue" href="https://iopscience.iop.org/article/10.1088/1742-6596/1518/1/012051">A Robust Monocular Depth Estimation Framework Based on Light-Weight ERF-PSPNet for Day-Night Driving Scenes.</a><br />
-                            In International Conference on Graphics, Images and Interactive Techniques (<b>CGIIT</b>), Sanya, China, February 2020.
+                            In International Conference on Graphics, Images and Interactive Techniques (<b>CGIIT</b>), Online, February 2020.
                             <!--<a style="color:BLUE" href="http://wangkaiwei.org/file/publications/cgiit2020_keyang.pdf">[PDF]</a>-->
                             <a style="color:BLUE" href="https://iopscience.iop.org/article/10.1088/1742-6596/1518/1/012051/pdf">[PDF]</a>
                             <button onclick="myFunction_cgiit2020_keyang();">BibTex</button>
@@ -1218,8 +1249,7 @@
                             <a style="color:MidnightBlue" href="https://ieeexplore.ieee.org/document/8814042">Can we PASS beyond the Field of View? Panoramic Annular Semantic Segmentation for Real-World Surrounding Perception.</a><br />
                             In IEEE Intelligent Vehicles Symposium (<b>IV</b>), Paris, France, June 2019.
                             <a style="color:BLUE" href="http://www.robesafe.uah.es/personal/bergasa/papers/IV2019_Kailun.pdf">[PDF]</a>
-                            <b><a style="color:orangered" href="https://events.infovaya.com/presentation?id=40338">[VIDEO1]</a></b>
-                            <b><a style="color:orangered" href="http://www.robesafe.uah.es/personal/bergasa/papers/IV2019_1384x3432.mp4">[VIDEO2]</a></b>
+                            <b><a style="color:orangered" href="http://www.robesafe.uah.es/personal/bergasa/papers/IV2019_1384x3432.mp4">[VIDEO]</a></b>
                             <b><a style="color:orangered" href="https://github.com/elnino9ykl/PASS">[DATA+CODE]</a></b>
                             <a style="color:BLUE" href="http://wangkaiwei.org/blog/20190609/20190609eg.html">[BLOG]</a>
                             <button onclick="myFunction_iv2019_kailun();">BibTex</button>
